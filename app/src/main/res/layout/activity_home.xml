@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#EBE1D2"
+    tools:context=".HomeActivity">
+    <TextView
+        android:text="Частые кухонные вопросы"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#90ACAF"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp">
+    </TextView>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#593C3C"
+            android:text="Как быстро научиться готовить простые блюда?"
+            android:layout_marginLeft="8dp"
+            android:layout_weight="1"
+            android:textSize="18dp">
+
+        </TextView>
+        <Button
+            android:id="@+id/but1"
+            android:layout_width="93dp"
+            android:layout_height="40dp"
+            android:backgroundTint="#90ACAF"
+            android:text="узнать"
+            android:layout_gravity="right">
+
+        </Button>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:text="Как правильно размораживать мясо и рыбу?"
+            android:layout_marginLeft="8dp"
+            android:textColor="#593C3C"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/but2"
+            android:layout_width="93dp"
+            android:layout_height="40dp"
+            android:backgroundTint="#90ACAF"
+            android:text="узнать"
+            android:layout_gravity="right"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif"
+            android:textColor="#593C3C"
+            android:text="Как понять, что продукт испортился?"
+            android:layout_marginLeft="8dp"
+            android:textSize="18dp" />
+        <Button
+            android:id="@+id/but3"
+            android:layout_width="93dp"
+            android:layout_height="40dp"
+            android:backgroundTint="#90ACAF"
+            android:text="узнать"
+            android:layout_gravity="right"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Что приготовить из остатков еды?"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="5dp"
+            android:textColor="#593C3C"
+            android:layout_weight="1"
+            android:textSize="18dp"/>
+        <Button
+            android:id="@+id/but4"
+            android:layout_width="93dp"
+            android:layout_height="40dp"
+            android:backgroundTint="#90ACAF"
+            android:text="узнать"
+            android:layout_gravity="right"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Как правильно варить макароны, рис и гречку?"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="5dp"
+            android:textColor="#593C3C"
+            android:layout_weight="1"
+            android:textSize="18dp">
+
+        </TextView>
+        <Button
+            android:id="@+id/but5"
+            android:layout_width="93dp"
+            android:layout_height="40dp"
+            android:backgroundTint="#90ACAF"
+            android:text="узнать"
+            android:layout_gravity="right"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#593C3C"
+            android:layout_marginTop="5dp"
+            android:text="Как наточить ножи в домашних условиях?"
+            android:layout_marginLeft="8dp"
+            android:layout_weight="1"
+            android:textSize="18dp">
+
+        </TextView>
+        <Button
+            android:id="@+id/but6"
+            android:layout_width="93dp"
+            android:layout_height="40dp"
+            android:backgroundTint="#90ACAF"
+            android:text="узнать"
+            android:layout_gravity="right"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Как хранить разные продукты в холодильнике?"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="8dp"
+            android:textColor="#593C3C"
+            android:layout_weight="1"
+            android:textSize="18dp">
+
+        </TextView>
+        <Button
+            android:id="@+id/but7"
+            android:layout_width="93dp"
+            android:layout_height="40dp"
+            android:backgroundTint="#90ACAF"
+            android:text="узнать"
+            android:layout_gravity="right"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Как отмыть пригоревшую кастрюлю?"
+            android:textColor="#593C3C"
+            android:layout_marginLeft="8dp"
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:textSize="18dp">
+
+        </TextView>
+        <Button
+            android:id="@+id/but8"
+            android:layout_width="93dp"
+            android:layout_height="40dp"
+            android:backgroundTint="#90ACAF"
+            android:text="узнать"
+            android:layout_gravity="right"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#593C3C"
+            android:text="Домашнее хозяйство"
+            android:layout_marginLeft="8dp"
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:textSize="18dp">
+
+        </TextView>
+        <Button
+            android:id="@+id/but9"
+            android:layout_width="93dp"
+            android:layout_height="40dp"
+            android:backgroundTint="#90ACAF"
+            android:text="узнать"
+            android:layout_gravity="right"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:text="Не нашли подходящую категорию или вопрос?"
+        android:layout_gravity="center"
+        android:textColor="#90ACAF"
+        android:textStyle="italic"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textColor="#593C3C"
+        android:layout_height="wrap_content"
+        android:text="Спросить у ии-помощника" />
+</LinearLayout>

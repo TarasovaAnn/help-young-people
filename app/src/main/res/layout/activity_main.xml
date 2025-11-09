@@ -7,7 +7,7 @@ android:layout_width="match_parent"
 android:layout_height="match_parent"
 tools:context=".MainActivity"
 android:orientation="vertical"
-android:background="#B9935A">
+android:background="#EBE1D2">
 
     <TextView
         android:text="Чему научимся сегодня?"
@@ -15,7 +15,7 @@ android:background="#B9935A">
         android:layout_height="wrap_content"
         android:textSize="20dp"
         android:textStyle="bold"
-        android:textColor="@color/white"
+        android:textColor="#593C3C"
         android:layout_gravity="center"
         android:layout_marginTop="10dp">
 
@@ -24,6 +24,8 @@ android:background="#B9935A">
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:textStyle="italic"
+    android:textColor="#90ACAF"
+    android:layout_marginTop="2dp"
     android:text="Популярные категории:">
 
     </TextView>
@@ -36,15 +38,18 @@ android:background="#B9935A">
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Домашнее хозяйство"
+        android:text="Кухня и питание"
+        android:textColor="#593C3C"
         android:layout_weight="1"
         android:textSize="18dp">
 
     </TextView>
     <Button
+        android:id="@+id/btn1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="перейти"
+        android:backgroundTint="#90ACAF"
         android:layout_gravity="right">
 
     </Button>
@@ -56,13 +61,16 @@ android:background="#B9935A">
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Кулинария"
+        android:text="Уборка и чистота"
+        android:textColor="#593C3C"
         android:layout_weight="1"
         android:textSize="18dp"/>
     <Button
+        android:id="@+id/btn2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="перейти"
+        android:backgroundTint="#90ACAF"
         android:layout_gravity="right"/>
 </LinearLayout>
 <LinearLayout
@@ -75,11 +83,14 @@ android:background="#B9935A">
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:fontFamily="sans-serif"
-        android:text="Медицина"
+        android:textColor="#593C3C"
+        android:text="Стирка и уход за вещами"
         android:textSize="18dp" />
     <Button
+        android:id="@+id/btn3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="#90ACAF"
         android:text="перейти"
         android:layout_gravity="right"/>
 </LinearLayout>
@@ -90,29 +101,195 @@ android:background="#B9935A">
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Документы"
+        android:text="Бытовая техника"
+        android:textColor="#593C3C"
         android:layout_weight="1"
         android:textSize="18dp"/>
     <Button
+        android:id="@+id/btn4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="перейти"
+        android:backgroundTint="#90ACAF"
         android:layout_gravity="right"/>
+
 </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Комунальные услуги"
+            android:textColor="#593C3C"
+            android:layout_weight="1"
+            android:textSize="18dp"/>
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="перейти"
+            android:backgroundTint="#90ACAF"
+            android:layout_gravity="right"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ремонт и содержание квартиры"
+            android:textColor="#593C3C"
+            android:layout_weight="1"
+            android:textSize="18dp"/>
+        <Button
+            android:id="@+id/btn6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="перейти"
+            android:backgroundTint="#90ACAF"
+            android:layout_gravity="right"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Безопасность"
+            android:textColor="#593C3C"
+            android:layout_weight="1"
+            android:textSize="18dp"/>
+        <Button
+            android:id="@+id/btn7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="перейти"
+            android:backgroundTint="#90ACAF"
+            android:layout_gravity="right"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Документы"
+            android:textColor="#593C3C"
+            android:layout_weight="1"
+            android:textSize="18dp"/>
+        <Button
+            android:id="@+id/btn8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="перейти"
+            android:backgroundTint="#90ACAF"
+            android:layout_gravity="right"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Экономия и бюджет"
+            android:textColor="#593C3C"
+            android:layout_weight="1"
+            android:textSize="18dp"/>
+        <Button
+            android:id="@+id/btn9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="перейти"
+            android:backgroundTint="#90ACAF"
+            android:layout_gravity="right"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Сезонные работы"
+            android:textColor="#593C3C"
+            android:layout_weight="1"
+            android:textSize="18dp"/>
+        <Button
+            android:id="@+id/btn10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="перейти"
+            android:backgroundTint="#90ACAF"
+            android:layout_gravity="right"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Питомцы и растения"
+            android:textColor="#593C3C"
+            android:layout_weight="1"
+            android:textSize="18dp"/>
+        <Button
+            android:id="@+id/btn11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="перейти"
+            android:backgroundTint="#90ACAF"
+            android:layout_gravity="right"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Здоровье"
+            android:textColor="#593C3C"
+            android:layout_weight="1"
+            android:textSize="18dp"/>
+        <Button
+            android:id="@+id/btn12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="перейти"
+            android:backgroundTint="#90ACAF"
+            android:layout_gravity="right"/>
+
+    </LinearLayout>
 <TextView
     android:layout_width="wrap_content"
-    android:layout_marginTop="30dp"
+    android:layout_marginTop="10dp"
     android:layout_height="wrap_content"
     android:text="Не нашли подходящую категорию или вопрос?"
     android:layout_gravity="center"
+    android:textColor="#90ACAF"
     android:textStyle="italic"/>
 <TextView
     android:layout_width="wrap_content"
     android:layout_marginTop="5dp"
     android:layout_gravity="center"
     android:textStyle="bold"
+    android:textColor="#593C3C"
     android:layout_height="wrap_content"
-    android:text="Спроси у ии-помощника" />
+    android:text="Спросить у ии-помощника" />
 
 
 </LinearLayout>
