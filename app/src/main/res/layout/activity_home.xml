@@ -36,7 +36,7 @@
         <Button
             android:id="@+id/but1"
             android:layout_width="93dp"
-            android:layout_height="40dp"
+            android:layout_height="48dp"
             android:backgroundTint="#90ACAF"
             android:text="узнать"
             android:layout_gravity="right">
@@ -61,7 +61,7 @@
         <Button
             android:id="@+id/but2"
             android:layout_width="93dp"
-            android:layout_height="40dp"
+            android:layout_height="48dp"
             android:backgroundTint="#90ACAF"
             android:text="узнать"
             android:layout_gravity="right"/>
@@ -84,7 +84,7 @@
         <Button
             android:id="@+id/but3"
             android:layout_width="93dp"
-            android:layout_height="40dp"
+            android:layout_height="48dp"
             android:backgroundTint="#90ACAF"
             android:text="узнать"
             android:layout_gravity="right"/>
@@ -105,7 +105,7 @@
         <Button
             android:id="@+id/but4"
             android:layout_width="93dp"
-            android:layout_height="40dp"
+            android:layout_height="48dp"
             android:backgroundTint="#90ACAF"
             android:text="узнать"
             android:layout_gravity="right"/>
@@ -128,7 +128,7 @@
         <Button
             android:id="@+id/but5"
             android:layout_width="93dp"
-            android:layout_height="40dp"
+            android:layout_height="48dp"
             android:backgroundTint="#90ACAF"
             android:text="узнать"
             android:layout_gravity="right"/>
@@ -151,7 +151,7 @@
         <Button
             android:id="@+id/but6"
             android:layout_width="93dp"
-            android:layout_height="40dp"
+            android:layout_height="48dp"
             android:backgroundTint="#90ACAF"
             android:text="узнать"
             android:layout_gravity="right"/>
@@ -174,7 +174,7 @@
         <Button
             android:id="@+id/but7"
             android:layout_width="93dp"
-            android:layout_height="40dp"
+            android:layout_height="48dp"
             android:backgroundTint="#90ACAF"
             android:text="узнать"
             android:layout_gravity="right"/>
@@ -197,7 +197,7 @@
         <Button
             android:id="@+id/but8"
             android:layout_width="93dp"
-            android:layout_height="40dp"
+            android:layout_height="48dp"
             android:backgroundTint="#90ACAF"
             android:text="узнать"
             android:layout_gravity="right"/>
@@ -220,7 +220,7 @@
         <Button
             android:id="@+id/but9"
             android:layout_width="93dp"
-            android:layout_height="40dp"
+            android:layout_height="48dp"
             android:backgroundTint="#90ACAF"
             android:text="узнать"
             android:layout_gravity="right"/>
