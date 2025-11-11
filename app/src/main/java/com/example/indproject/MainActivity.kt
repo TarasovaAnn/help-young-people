@@ -13,10 +13,15 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_main)
-            var button: Button = findViewById(R.id.btn1)
-            button.setOnClickListener {
+            var button1: Button = findViewById(R.id.btn1)
+            button1.setOnClickListener {
                 val intent = Intent(this, HomeActivity::class.java)
                 startActivity(intent)
+        }
+        var button2: Button = findViewById(R.id.btn2)
+        button2.setOnClickListener {
+            val intent = Intent(this, CleaningActivity::class.java)
+            startActivity(intent)
         }
     }
 }

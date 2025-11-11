@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.IndProject">
         <activity
+            android:name=".CleaningActivity"
+            android:exported="false" />
+        <activity
             android:name=".Cleaning"
             android:exported="false" />
         <activity
