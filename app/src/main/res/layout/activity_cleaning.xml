@@ -3,13 +3,14 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:background="#EBE1D2"
-    tools:context=".HomeActivity">
+    tools:context=".Cleaning"
+    android:background="#EBE1D2">
+
     <TextView
-        android:text="Частые кухонные вопросы"
+        android:text="Частые вопросы по уборке"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="20dp"
@@ -27,14 +28,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="#593C3C"
-            android:text="Как быстро научиться готовить простые блюда?"
+            android:text="Как быстро прибраться перед приходом гостей?"
             android:layout_marginLeft="8dp"
             android:layout_weight="1"
             android:textSize="18dp">
 
         </TextView>
         <Button
-            android:id="@+id/but1"
+            android:id="@+id/but13"
             android:layout_width="93dp"
             android:layout_height="48dp"
             android:backgroundTint="#90ACAF"
@@ -53,13 +54,13 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:layout_marginTop="5dp"
-            android:text="Как правильно размораживать мясо и рыбу?"
+            android:text="Как помыть окна без разводов?"
             android:layout_marginLeft="8dp"
             android:textColor="#593C3C"
             android:textSize="18dp" />
 
         <Button
-            android:id="@+id/but2"
+            android:id="@+id/but14"
             android:layout_width="93dp"
             android:layout_height="48dp"
             android:backgroundTint="#90ACAF"
@@ -78,11 +79,11 @@
             android:layout_marginTop="5dp"
             android:fontFamily="sans-serif"
             android:textColor="#593C3C"
-            android:text="Как понять, что продукт испортился?"
+            android:text="Куда сыпать стиральный порошек и сколько?"
             android:layout_marginLeft="8dp"
             android:textSize="18dp" />
         <Button
-            android:id="@+id/but3"
+            android:id="@+id/but15"
             android:layout_width="93dp"
             android:layout_height="48dp"
             android:backgroundTint="#90ACAF"
@@ -96,14 +97,14 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Что приготовить из остатков еды?"
+            android:text="Как избавиться от неприятного запаха в холодильнике?"
             android:layout_marginLeft="8dp"
             android:layout_marginTop="5dp"
             android:textColor="#593C3C"
             android:layout_weight="1"
             android:textSize="18dp"/>
         <Button
-            android:id="@+id/but4"
+            android:id="@+id/but16"
             android:layout_width="93dp"
             android:layout_height="48dp"
             android:backgroundTint="#90ACAF"
@@ -117,7 +118,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Как правильно варить макароны, рис и гречку?"
+            android:text="Как почистить диван и мягкую мебель?"
             android:layout_marginLeft="8dp"
             android:layout_marginTop="5dp"
             android:textColor="#593C3C"
@@ -126,7 +127,7 @@
 
         </TextView>
         <Button
-            android:id="@+id/but5"
+            android:id="@+id/but17"
             android:layout_width="93dp"
             android:layout_height="48dp"
             android:backgroundTint="#90ACAF"
@@ -142,14 +143,14 @@
             android:layout_height="wrap_content"
             android:textColor="#593C3C"
             android:layout_marginTop="5dp"
-            android:text="Как наточить ножи в домашних условиях?"
+            android:text="Как постирать пуховик?"
             android:layout_marginLeft="8dp"
             android:layout_weight="1"
             android:textSize="18dp">
 
         </TextView>
         <Button
-            android:id="@+id/but6"
+            android:id="@+id/but18"
             android:layout_width="93dp"
             android:layout_height="48dp"
             android:backgroundTint="#90ACAF"
@@ -163,7 +164,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Как хранить разные продукты в холодильнике?"
+            android:text="Какие средства нужны для базовой уборки?"
             android:layout_marginTop="5dp"
             android:layout_marginLeft="8dp"
             android:textColor="#593C3C"
@@ -172,7 +173,7 @@
 
         </TextView>
         <Button
-            android:id="@+id/but7"
+            android:id="@+id/but19"
             android:layout_width="93dp"
             android:layout_height="48dp"
             android:backgroundTint="#90ACAF"
@@ -186,7 +187,7 @@
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="Как отмыть пригоревшую кастрюлю?"
+            android:text="Как и чем мыть ванну/туалет?"
             android:textColor="#593C3C"
             android:layout_marginLeft="8dp"
             android:layout_weight="1"
@@ -195,7 +196,7 @@
 
         </TextView>
         <Button
-            android:id="@+id/but8"
+            android:id="@+id/but20"
             android:layout_width="93dp"
             android:layout_height="48dp"
             android:backgroundTint="#90ACAF"
@@ -210,7 +211,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="#593C3C"
-            android:text="Домашнее хозяйство"
+            android:text="Как избавиться от плесени в ванной?"
             android:layout_marginLeft="8dp"
             android:layout_weight="1"
             android:layout_marginTop="5dp"
@@ -218,7 +219,7 @@
 
         </TextView>
         <Button
-            android:id="@+id/but9"
+            android:id="@+id/but21"
             android:layout_width="93dp"
             android:layout_height="48dp"
             android:backgroundTint="#90ACAF"
@@ -244,7 +245,7 @@
         android:text="Спросить у ии-помощника" />
 
     <Button
-        android:id="@+id/back_btn"
+        android:id="@+id/back_btn1"
         android:layout_marginTop="30dp"
         android:backgroundTint="#90ACAF"
         android:layout_width="250dp"
