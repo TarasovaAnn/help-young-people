@@ -10,15 +10,15 @@
     android:background="#EBE1D2">
 
     <TextView
-        android:text="Частые вопросы по уборке"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="20dp"
-        android:textStyle="bold"
-        android:textColor="#90ACAF"
         android:layout_gravity="center"
-        android:layout_marginTop="10dp">
-    </TextView>
+        android:layout_marginTop="15dp"
+        android:text="Частые вопросы по уборке"
+        android:textColor="#90ACAF"
+        android:textSize="20dp"
+        android:textStyle="bold"></TextView>
+
     <LinearLayout
         android:orientation="horizontal"
         android:layout_marginTop="20dp"
@@ -79,7 +79,7 @@
             android:layout_marginTop="5dp"
             android:fontFamily="sans-serif"
             android:textColor="#593C3C"
-            android:text="Куда сыпать стиральный порошек и сколько?"
+            android:text="Куда сыпать стиральный порошок и сколько?"
             android:layout_marginLeft="8dp"
             android:textSize="18dp" />
         <Button
