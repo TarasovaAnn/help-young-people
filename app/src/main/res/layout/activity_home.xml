@@ -92,7 +92,7 @@
             android:id="@+id/text25"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Как правильно варить макароны, рис и гречку?"
+            android:text="Как правильно варить макароны, рис, гречку или картошку?"
             android:layout_marginLeft="8dp"
             android:layout_marginTop="15dp"
             android:textColor="#593C3C"

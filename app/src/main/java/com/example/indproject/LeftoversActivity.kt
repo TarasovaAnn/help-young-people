@@ -9,33 +9,34 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 
-class CookActivity : AppCompatActivity() {
+class LeftoversActivity : AppCompatActivity() {
+
     private val recipeStates = mutableMapOf<Int, Boolean>()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_cook) // обрати внимание на название файла!
-        var button: Button = findViewById(R.id.back_btn5)
+        setContentView(R.layout.activity_leftovers)
+        var button: Button = findViewById(R.id.back_btn7)
         button.setOnClickListener {
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
         }
+
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+        supportActionBar?.title = "Рецепты из остатков"
+
         setupRecipeAccordion()
     }
 
     private fun setupRecipeAccordion() {
         val recipes = listOf(
-            RecipeItem(R.id.headerEggs, R.id.expandableEggs, R.id.arrowEggs),
-            RecipeItem(R.id.headerChicken, R.id.expandableChicken, R.id.arrowChicken),
-            RecipeItem(R.id.headerSalad, R.id.expandableSalad, R.id.arrowSalad),
-            RecipeItem(R.id.headerDessert, R.id.expandableDessert, R.id.arrowDessert),
-            RecipeItem(R.id.headerSandwich, R.id.expandableSandwich, R.id.arrowSandwich),
             RecipeItem(R.id.headerOmelette, R.id.expandableOmelette, R.id.arrowOmelette),
-            RecipeItem(R.id.headerSyrniki, R.id.expandableSyrniki, R.id.arrowSyrniki),
-            RecipeItem(R.id.headerToast, R.id.expandableToast, R.id.arrowToast),
-            RecipeItem(R.id.headerCaesar, R.id.expandableCaesar, R.id.arrowCaesar),
+            RecipeItem(R.id.headerRice, R.id.expandableRice, R.id.arrowRice),
+            RecipeItem(R.id.headerCasserole, R.id.expandableCasserole, R.id.arrowCasserole),
+            RecipeItem(R.id.headerPizza, R.id.expandablePizza, R.id.arrowPizza),
+            RecipeItem(R.id.headerCutlets, R.id.expandableCutlets, R.id.arrowCutlets),
             RecipeItem(R.id.headerPancakes, R.id.expandablePancakes, R.id.arrowPancakes),
-            RecipeItem(R.id.headerMugCake, R.id.expandableMugCake, R.id.arrowMugCake)
+            RecipeItem(R.id.headerSoup, R.id.expandableSoup, R.id.arrowSoup)
         )
 
         recipes.forEach { recipe ->

@@ -33,5 +33,10 @@ class HomeActivity : AppCompatActivity() {
             val intent= Intent(this, FoodSpoilageActivity::class.java)
             startActivity(intent)
         }
+        val clickableSpan4 = findViewById<TextView>(R.id.text24)
+        clickableSpan4.setOnClickListener {
+            val intent= Intent(this, LeftoversActivity::class.java)
+            startActivity(intent)
+        }
     }
 }

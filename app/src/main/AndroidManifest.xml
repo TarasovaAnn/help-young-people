@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.IndProject">
         <activity
+            android:name=".GrainsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LeftoversActivity"
+            android:exported="false" />
+        <activity
             android:name=".FoodSpoilageActivity"
             android:exported="false" />
         <activity

@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#EBE1D2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Заголовок -->
+        <TextView
+            android:layout_marginTop="35dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🍲 Что приготовить из остатков еды"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#2c3e50"
+            android:gravity="center"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Омлет из всего -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/bg_recipe_item"
+            android:layout_marginBottom="8dp">
+
+            <LinearLayout
+                android:id="@+id/headerOmelette"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:clickable="true"
+                android:focusable="true"
+                android:background="?attr/selectableItemBackground"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="🍳 Омлет 'Из всего'"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#2c3e50" />
+
+                <ImageView
+                    android:id="@+id/arrowOmelette"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/ic_arrow_down" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/expandableOmelette"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Подходит для: остатков овощей, колбасы, сыра, мяса, грибов\n\n• Взбейте 2-3 яйца с солью\n• Мелко нарежьте все остатки (до 1 стакана)\n• Обжарьте остатки на сковороде 3-4 минуты\n• Залейте яйцами, накройте крышкой\n• Готовьте на среднем огне 5-7 минут\n• Посыпьте зеленью или сыром\n\n💡 Идеально для: вчерашних овощей, кусочков колбасы, небольшого количества мяса"
+                android:padding="16dp"
+                android:background="#e8f4f8"
+                android:textColor="#34495e"
+                android:lineSpacingExtra="4dp"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+        <!-- Жареный рис -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/bg_recipe_item"
+            android:layout_marginBottom="8dp">
+
+            <LinearLayout
+                android:id="@+id/headerRice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:clickable="true"
+                android:focusable="true"
+                android:background="?attr/selectableItemBackground"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="🍚 Жареный рис 'Азиатский'"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#2c3e50" />
+
+                <ImageView
+                    android:id="@+id/arrowRice"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/ic_arrow_down" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/expandableRice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Подходит для: вчерашнего риса, овощей, мяса, яиц\n\n• Разогрейте вок или сковороду с маслом\n• Обжарьте мелко нарезанные остатки 3-4 минуты\n• Добавьте вчерашний рис, разомните комки\n• Влейте соевый соус (1-2 ст. ложки)\n• Сделайте углубление, вбейте яйцо, перемешайте\n• Готовьте еще 2-3 минуты\n• Посыпьте зеленым луком\n\n💡 Идеально для: оставшегося риса, моркови, горошка, курицы"
+                android:padding="16dp"
+                android:background="#e8f4f8"
+                android:textColor="#34495e"
+                android:lineSpacingExtra="4dp"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+        <!-- Запеканка -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/bg_recipe_item"
+            android:layout_marginBottom="8dp">
+
+            <LinearLayout
+                android:id="@+id/headerCasserole"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:clickable="true"
+                android:focusable="true"
+                android:background="?attr/selectableItemBackground"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="🥘 Запеканка 'Универсальная'"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#2c3e50" />
+
+                <ImageView
+                    android:id="@+id/arrowCasserole"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/ic_arrow_down" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/expandableCasserole"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Подходит для: макарон, картофеля, овощей, мяса\n\n• Смешайте все остатки в миске\n• Добавьте 2 яйца и 3 ст. ложки сметаны/майонеза\n• Посолите, поперчите, добавьте специи\n• Выложите в форму, посыпьте сыром\n• Запекайте при 180°C 20-25 минут\n• Подавайте со сметаной\n\n💡 Идеально для: оставшихся макарон, пюре, тушеных овощей, фарша"
+                android:padding="16dp"
+                android:background="#e8f4f8"
+                android:textColor="#34495e"
+                android:lineSpacingExtra="4dp"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+        <!-- Пицца на скорую руку -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/bg_recipe_item"
+            android:layout_marginBottom="8dp">
+
+            <LinearLayout
+                android:id="@+id/headerPizza"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:clickable="true"
+                android:focusable="true"
+                android:background="?attr/selectableItemBackground"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="🍕 Пицца 'На что хватит'"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#2c3e50" />
+
+                <ImageView
+                    android:id="@+id/arrowPizza"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/ic_arrow_down" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/expandablePizza"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Подходит для: колбасы, овощей, сыра, соусов\n\n• Возьмите основу: лаваш, готовое тесто, хлеб\n• Смажьте томатным соусом или кетчупом\n• Нарежьте все остатки мелкими кусочками\n• Разложите на основу, посыпьте сыром\n• Запекайте при 200°C 10-12 минут\n\n💡 Идеально для: небольших кусочков колбасы, овощей, оливок, кукурузы"
+                android:padding="16dp"
+                android:background="#e8f4f8"
+                android:textColor="#34495e"
+                android:lineSpacingExtra="4dp"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+        <!-- Котлеты-микс -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/bg_recipe_item"
+            android:layout_marginBottom="8dp">
+
+            <LinearLayout
+                android:id="@+id/headerCutlets"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:clickable="true"
+                android:focusable="true"
+                android:background="?attr/selectableItemBackground"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="🍔 Котлеты 'Микс'"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#2c3e50" />
+
+                <ImageView
+                    android:id="@+id/arrowCutlets"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/ic_arrow_down" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/expandableCutlets"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Подходит для: остатков каш, мяса, овощей, хлеба\n\n• Пропустите через мясорубку все остатки\n• Добавьте 1 яйцо и 2 ст. ложки муки/манки\n• Посолите, поперчите, хорошо вымесите\n• Сформируйте котлеты, обваляйте в сухарях\n• Обжарьте на среднем огне 4-5 минут с каждой стороны\n\n💡 Идеально для: оставшейся каши, вареного мяса, тушеных овощей"
+                android:padding="16dp"
+                android:background="#e8f4f8"
+                android:textColor="#34495e"
+                android:lineSpacingExtra="4dp"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+        <!-- Блины с начинкой -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/bg_recipe_item"
+            android:layout_marginBottom="8dp">
+
+            <LinearLayout
+                android:id="@+id/headerPancakes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:clickable="true"
+                android:focusable="true"
+                android:background="?attr/selectableItemBackground"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="🥞 Блины с начинкой"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#2c3e50" />
+
+                <ImageView
+                    android:id="@+id/arrowPancakes"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/ic_arrow_down" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/expandablePancakes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Подходит для: творога, мяса, овощей, грибов\n\n• Приготовьте обычное блинное тесто\n• Обжарьте блины с двух сторон\n• Мелко нарежьте остатки, обжарьте 5 минут\n• Заверните начинку в блины\n• Подавайте со сметаной\n\n💡 Идеально для: творога, тушеного мяса, грибов, яиц с зеленью"
+                android:padding="16dp"
+                android:background="#e8f4f8"
+                android:textColor="#34495e"
+                android:lineSpacingExtra="4dp"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+        <!-- Суп-пюре -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/bg_recipe_item"
+            android:layout_marginBottom="8dp">
+
+            <LinearLayout
+                android:id="@+id/headerSoup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:clickable="true"
+                android:focusable="true"
+                android:background="?attr/selectableItemBackground"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="🥣 Суп-пюре 'Смешанный'"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#2c3e50" />
+
+                <ImageView
+                    android:id="@+id/arrowSoup"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/ic_arrow_down" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/expandableSoup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Подходит для: остатков овощей, вареного мяса, круп\n\n• Сложите все остатки в кастрюлю\n• Залейте водой или бульоном (на 2 см выше)\n• Варите 15-20 минут до мягкости\n• Измельчите блендером до кремообразной массы\n• Добавьте специи, сливки или сметану\n• Подавайте с гренками\n\n💡 Идеально для: небольшого количества разных овощей, вареной курицы, картофеля"
+                android:padding="16dp"
+                android:background="#e8f4f8"
+                android:textColor="#34495e"
+                android:lineSpacingExtra="4dp"
+                android:visibility="gone" />
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/back_btn7"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="#34495e"
+            android:layout_width="250dp"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:layout_height="50dp"
+            android:text="На главную" />
+    </LinearLayout>
+
+</ScrollView>
