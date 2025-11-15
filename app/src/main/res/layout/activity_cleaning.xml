@@ -15,9 +15,9 @@
         android:layout_gravity="center"
         android:layout_marginTop="15dp"
         android:text="Частые вопросы по уборке"
-        android:textColor="#90ACAF"
+        android:textColor="#34495e"
         android:textSize="20dp"
-        android:textStyle="bold"></TextView>
+        android:textStyle="bold"/>
 
     <LinearLayout
         android:orientation="horizontal"
@@ -168,7 +168,7 @@
         android:textSize="16dp"
         android:text="Не нашли подходящую категорию или вопрос?"
         android:layout_gravity="center"
-        android:textColor="#90ACAF"
+        android:textColor="#34495e"
         android:textStyle="italic"/>
     <TextView
         android:layout_width="wrap_content"
@@ -182,7 +182,7 @@
     <Button
         android:id="@+id/back_btn1"
         android:layout_marginTop="30dp"
-        android:backgroundTint="#90ACAF"
+        android:backgroundTint="#34495e"
         android:layout_width="250dp"
         android:layout_gravity="center"
         android:layout_height="50dp"

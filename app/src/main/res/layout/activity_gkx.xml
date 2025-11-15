@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:textSize="20dp"
         android:textStyle="bold"
-        android:textColor="#90ACAF"
+        android:textColor="#34495e"
         android:layout_gravity="center"
         android:layout_marginTop="15dp">
     </TextView>
@@ -171,7 +171,7 @@
         android:textSize="16dp"
         android:text="Не нашли подходящую категорию или вопрос?"
         android:layout_gravity="center"
-        android:textColor="#90ACAF"
+        android:textColor="#34495e"
         android:textStyle="italic"/>
     <TextView
         android:layout_width="wrap_content"
@@ -185,7 +185,7 @@
     <Button
         android:id="@+id/back_btn4"
         android:layout_marginTop="30dp"
-        android:backgroundTint="#90ACAF"
+        android:backgroundTint="#34495e"
         android:layout_width="250dp"
         android:layout_gravity="center"
         android:layout_height="50dp"

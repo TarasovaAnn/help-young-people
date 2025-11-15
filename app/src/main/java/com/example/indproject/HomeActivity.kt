@@ -23,5 +23,15 @@ class HomeActivity : AppCompatActivity() {
             val intent= Intent(this, CookActivity::class.java)
             startActivity(intent)
         }
+        val clickableSpan2 = findViewById<TextView>(R.id.text2)
+        clickableSpan2.setOnClickListener {
+            val intent= Intent(this, DefrostActivity::class.java)
+            startActivity(intent)
+        }
+        val clickableSpan3 = findViewById<TextView>(R.id.text23)
+        clickableSpan3.setOnClickListener {
+            val intent= Intent(this, FoodSpoilageActivity::class.java)
+            startActivity(intent)
+        }
     }
 }

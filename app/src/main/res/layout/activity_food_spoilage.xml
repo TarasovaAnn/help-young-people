@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#f8f9fa">
+
+    <LinearLayout
+        android:background="#EBE1D2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Заголовок -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🔍 Как понять, что продукт испортился"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#2c3e50"
+            android:gravity="center"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Общие признаки -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/bg_recipe_item"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="🚨 ОБЩИЕ ПРИЗНАКИ ИСПОРЧЕННОСТИ"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#e74c3c"
+                android:layout_marginBottom="12dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• НЕПРИЯТНЫЙ ЗАПАХ: кислый, тухлый, аммиачный\n• ИЗМЕНЕНИЕ ЦВЕТА: потемнение, позеленение, пятна\n• СЛИЗЬ: скользкая поверхность, липкость\n• ПЛЕСЕНЬ: пушистый налет любого цвета\n• ВЗДУТАЯ УПАКОВКА: особенно у консервов\n• ГАЗЫ: шипение при открытии\n• ИЗМЕНЕНИЕ ТЕКСТУРЫ: рыхлость, размягчение"
+                android:textSize="16sp"
+                android:textColor="#34495e"
+                android:lineSpacingExtra="6dp" />
+
+        </LinearLayout>
+
+        <!-- Мясо и птица -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/bg_recipe_item"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="🥩 МЯСО И ПТИЦА"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#c0392b"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="✅ СВЕЖЕЕ:\n• Цвет: ярко-красный (говядина), розовый (свинина)\n• Запах: нейтральный мясной\n• Поверхность: упругая, ямка выравнивается\n• Жир: белый или кремовый\n\n❌ ИСПОРЧЕНО:\n• Цвет: серый, зеленоватый, темный\n• Запах: кислый, тухлый\n• Поверхность: липкая, скользкая\n• Жир: желтый, прогорклый\n\n💡 Можно оживить: НИЧЕГО - ВЫБРОСИТЬ!"
+                android:textSize="16sp"
+                android:textColor="#34495e"
+                android:lineSpacingExtra="4dp" />
+
+        </LinearLayout>
+
+        <!-- Рыба и морепродукты -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/bg_recipe_item"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="🐟 РЫБА И МОРЕПРОДУКТЫ"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#2980b9"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="✅ СВЕЖАЯ:\n• Глаза: прозрачные, выпуклые\n• Жабры: ярко-красные\n• Запах: свежий, морской\n• Текстура: упругая\n• Чешуя: блестящая, плотная\n\n❌ ИСПОРЧЕНА:\n• Глаза: мутные, впалые\n• Жабры: серые, коричневые\n• Запах: резкий, аммиачный\n• Текстура: рыхлая, оставляет вмятину\n\n💡 Можно оживить: НИЧЕГО - ВЫБРОСИТЬ!"
+                android:textSize="16sp"
+                android:textColor="#34495e"
+                android:lineSpacingExtra="4dp" />
+
+        </LinearLayout>
+
+        <!-- Молочные продукты -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/bg_recipe_item"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="🥛 МОЛОЧНЫЕ ПРОДУКТЫ"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#8e44ad"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="МОЛОКО:\n✅ Свежее: однородное, сладковатый запах\n❌ Испорчено: комки, кислый запах, газообразование\n💡 Можно оживить: для выпечки при слабой кислотности\n\nСЫР:\n✅ Свежий: равномерный цвет, свой запах\n❌ Испорчен: плесень (кроме благородной), аммиачный запах\n💡 Можно оживить: обрезать плесень (твердые сыры)\n\nЙОГУРТ:\n✅ Свежий: однородный, приятно кислый\n❌ Испорчен: плесень, резкая кислотность, газ\n💡 Можно оживить: НЕТ - ВЫБРОСИТЬ!"
+                android:textSize="16sp"
+                android:textColor="#34495e"
+                android:lineSpacingExtra="4dp" />
+
+        </LinearLayout>
+
+        <!-- Овощи и фрукты -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/bg_recipe_item"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="🍅 ОВОЩИ И ФРУКТЫ"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#27ae60"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="✅ СВЕЖИЕ:\n• Упругие, без мягких пятен\n• Естественный цвет и запах\n• Кожура целая, без морщин\n\n❌ ИСПОРЧЕНЫ:\n• Мягкие, водянистые участки\n• Плесень, темные пятна\n• Кислый, винный запах\n\n💡 МОЖНО ОЖИВИТЬ:\n• Увядшая зелень - в ледяную воду на 1 час\n• Морщинистые овощи - очистить и приготовить\n• Подвядшие корнеплоды - использовать для супа\n• НЕЛЬЗЯ: с плесенью, гнилью, кислым запахом"
+                android:textSize="16sp"
+                android:textColor="#34495e"
+                android:lineSpacingExtra="4dp" />
+
+        </LinearLayout>
+
+        <!-- Хлеб и выпечка -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/bg_recipe_item"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="🍞 ХЛЕБ И ВЫПЕЧКА"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#d35400"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="✅ СВЕЖИЙ:\n• Мягкий, упругий\n• Приятный хлебный запах\n• Равномерный цвет корочки\n\n❌ ИСПОРЧЕН:\n• Плесень (даже маленькое пятно!)\n• Липкость, необычный запах\n• Затхлый аромат\n\n💡 МОЖНО ОЖИВИТЬ:\n• Черствый хлеб - сбрызнуть водой и прогреть в духовке\n• НЕЛЬЗЯ: любой хлеб с плесенью - ВЫБРОСИТЬ ВСЮ БУЛКУ!"
+                android:textSize="16sp"
+                android:textColor="#34495e"
+                android:lineSpacingExtra="4dp" />
+
+        </LinearLayout>
+
+        <!-- Важные предупреждения -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/bg_warning"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="⚠️ ВАЖНЫЕ ПРАВИЛА БЕЗОПАСНОСТИ"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#c0392b"
+                android:layout_marginBottom="12dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• При сомнениях - ВЫБРАСЫВАЙТЕ!\n• Плесень на мягких продуктах проникает глубоко\n• Вздутые консервы - СМЕРТЕЛЬНО опасны!\n• Не пробуйте испорченные продукты\n• Детям, беременным и пожилым - только свежее\n• Лучше выбросить, чем рисковать здоровьем\n• Срок годности - ориентир, а не гарантия"
+                android:textSize="16sp"
+                android:textColor="#34495e"
+                android:lineSpacingExtra="6dp" />
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/back_btn7"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="#34495e"
+            android:layout_width="250dp"
+            android:layout_gravity="center"
+            android:layout_height="50dp"
+            android:text="На главную" />
+    </LinearLayout>
+
+</ScrollView>

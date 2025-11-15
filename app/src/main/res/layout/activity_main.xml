@@ -25,7 +25,7 @@ android:background="#EBE1D2">
     android:layout_height="wrap_content"
     android:textStyle="italic"
     android:layout_marginLeft="18dp"
-    android:textColor="#90ACAF"
+    android:textColor="#34495e"
     android:layout_marginTop="2dp"
     android:text="Популярные категории:">
 
@@ -283,7 +283,7 @@ android:background="#EBE1D2">
     android:textSize="16dp"
     android:text="Не нашли подходящую категорию или вопрос?"
     android:layout_gravity="center"
-    android:textColor="#90ACAF"
+    android:textColor="#34495e"
     android:textStyle="italic"/>
 <TextView
     android:id="@+id/iitext"

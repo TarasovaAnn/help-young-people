@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.IndProject">
         <activity
+            android:name=".FoodSpoilageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DefrostActivity"
+            android:exported="false" />
+        <activity
             android:name=".CookActivity"
             android:exported="false" />
         <activity

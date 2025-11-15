@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#EBE1D2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Заголовок -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🥩 Как правильно размораживать мясо и рыбу"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#2c3e50"
+            android:gravity="center"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Карточка с правильным способом -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/bg_recipe_item"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="✅ ПРАВИЛЬНЫЕ СПОСОБЫ"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#27ae60"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• В ХОЛОДИЛЬНИКЕ (лучший способ)\n• Положите мясо/рыбу на тарелку\n• Оставьте на нижней полке холодильника\n• Время: 5-12 часов в зависимости от размера\n• Преимущества: сохраняет вкус и сок"
+                android:textSize="16sp"
+                android:textColor="#34495e"
+                android:lineSpacingExtra="4dp"
+                android:layout_marginBottom="12dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• В ХОЛОДНОЙ ВОДЕ (быстрее)\n• Положите в герметичный пакет\n• Погрузите в холодную воду\n• Меняйте воду каждые 30 минут\n• Время: 1-3 часа"
+                android:textSize="16sp"
+                android:textColor="#34495e"
+                android:lineSpacingExtra="4dp" />
+
+        </LinearLayout>
+
+        <!-- Карточка с неправильным способом -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/bg_recipe_item"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="❌ НЕПРАВИЛЬНЫЕ СПОСОБЫ"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#e74c3c"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• ПРИ КОМНАТНОЙ ТЕМПЕРАТУРЕ\n• Опасно! Бактерии размножаются быстро\n• Мясо теряет сок и становится жестким\n\n• В ГОРЯЧЕЙ ВОДЕ\n• Испортит текстуру продукта\n• Снаружи сварится, внутри останется льдом\n• Риск пищевого отравления\n\n• В МИКРОВОЛНОВКЕ (только если срочно)\n• Частично готовит продукт\n• Делает мясо жестким"
+                android:textSize="16sp"
+                android:textColor="#34495e"
+                android:lineSpacingExtra="4dp" />
+
+        </LinearLayout>
+
+        <!-- Карточка с полезными советами -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/bg_recipe_item"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="💡 ПОЛЕЗНЫЕ СОВЕТЫ"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#3498db"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Заранее планируйте: доставайте продукты за 1 день до готовки\n• Размораживайте порционно: отделяйте нужное количество\n• Не замораживайте повторно: это опасно для здоровья\n• После разморозки готовьте сразу: не храните больше 2 часов\n• Для супов/рагу можно готовить без разморозки\n• Рыба размораживается быстрее мяса"
+                android:textSize="16sp"
+                android:textColor="#34495e"
+                android:lineSpacingExtra="4dp" />
+
+        </LinearLayout>
+
+        <!-- Карточка с ориентировочным временем -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/bg_recipe_item"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="⏱️ ОРИЕНТИРОВОЧНОЕ ВРЕМЯ РАЗМОРОЗКИ В ХОЛОДИЛЬНИКЕ"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#f39c12"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Фарш: 4-6 часов\n• Куриное филе: 5-8 часов\n• Целая курица: 12-24 часа\n• Стейк (2-3 см): 6-9 часов\n• Рыбное филе: 3-5 часов\n• Креветки: 2-4 часа\n• Суповой набор: 8-12 часов"
+                android:textSize="16sp"
+                android:textColor="#34495e"
+                android:lineSpacingExtra="4dp" />
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/back_btn6"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="#34495e"
+            android:layout_width="250dp"
+            android:layout_gravity="center"
+            android:layout_height="50dp"
+            android:text="На главную" />
+    </LinearLayout>
+
+</ScrollView>
