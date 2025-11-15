@@ -33,15 +33,6 @@
             android:textSize="18dp">
 
         </TextView>
-        <Button
-            android:id="@+id/but22"
-            android:layout_width="93dp"
-            android:layout_height="48dp"
-            android:backgroundTint="#90ACAF"
-            android:text="узнать"
-            android:layout_gravity="right">
-
-        </Button>
     </LinearLayout>
     <LinearLayout
         android:orientation="horizontal"
@@ -52,19 +43,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="15dp"
             android:text="Как и где удобнее всего оплачивать квитанции? "
             android:layout_marginLeft="8dp"
             android:textColor="#593C3C"
             android:textSize="18dp" />
 
-        <Button
-            android:id="@+id/but23"
-            android:layout_width="93dp"
-            android:layout_height="48dp"
-            android:backgroundTint="#90ACAF"
-            android:text="узнать"
-            android:layout_gravity="right"/>
     </LinearLayout>
     <LinearLayout
         android:orientation="horizontal"
@@ -75,19 +59,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="15dp"
             android:fontFamily="sans-serif"
             android:textColor="#593C3C"
             android:text="Как правильно снимать показания со счетчиков воды, электричества и газа?"
             android:layout_marginLeft="8dp"
             android:textSize="18dp" />
-        <Button
-            android:id="@+id/but3"
-            android:layout_width="93dp"
-            android:layout_height="48dp"
-            android:backgroundTint="#90ACAF"
-            android:text="узнать"
-            android:layout_gravity="right"/>
     </LinearLayout>
     <LinearLayout
         android:orientation="horizontal"
@@ -98,17 +75,10 @@
             android:layout_height="wrap_content"
             android:text="Что входит в обязанности УК, а что должны делать сами жильцы?"
             android:layout_marginLeft="8dp"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="15dp"
             android:textColor="#593C3C"
             android:layout_weight="1"
             android:textSize="18dp"/>
-        <Button
-            android:id="@+id/but24"
-            android:layout_width="93dp"
-            android:layout_height="48dp"
-            android:backgroundTint="#90ACAF"
-            android:text="узнать"
-            android:layout_gravity="right"/>
     </LinearLayout>
     <LinearLayout
         android:orientation="horizontal"
@@ -119,7 +89,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="8dp"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="15dp"
             android:layout_weight="1"
             android:text="Прорвало батарею или трубу в квартире. Какие первые действия?"
             android:textColor="#593C3C"
@@ -127,13 +97,6 @@
 
         </TextView>
 
-        <Button
-            android:id="@+id/but25"
-            android:layout_width="93dp"
-            android:layout_height="48dp"
-            android:backgroundTint="#90ACAF"
-            android:text="узнать"
-            android:layout_gravity="right"/>
     </LinearLayout>
     <LinearLayout
         android:orientation="horizontal"
@@ -144,7 +107,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="8dp"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="15dp"
             android:layout_weight="1"
             android:text="Отключили свет во всей квартире (выбило пробки). Как найти и проверить электрощиток?"
             android:textColor="#593C3C"
@@ -152,13 +115,6 @@
 
         </TextView>
 
-        <Button
-            android:id="@+id/but26"
-            android:layout_width="93dp"
-            android:layout_height="48dp"
-            android:backgroundTint="#90ACAF"
-            android:text="узнать"
-            android:layout_gravity="right"/>
     </LinearLayout>
     <LinearLayout
         android:orientation="horizontal"
@@ -168,20 +124,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Как найти свою управляющую компанию и узнать ее контакты?"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="15dp"
             android:layout_marginLeft="8dp"
             android:textColor="#593C3C"
             android:layout_weight="1"
             android:textSize="18dp">
 
         </TextView>
-        <Button
-            android:id="@+id/but27"
-            android:layout_width="93dp"
-            android:layout_height="48dp"
-            android:backgroundTint="#90ACAF"
-            android:text="узнать"
-            android:layout_gravity="right"/>
     </LinearLayout>
     <LinearLayout
         android:orientation="horizontal"
@@ -194,17 +143,10 @@
             android:textColor="#593C3C"
             android:layout_marginLeft="8dp"
             android:layout_weight="1"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="15dp"
             android:textSize="18dp">
 
         </TextView>
-        <Button
-            android:id="@+id/but28"
-            android:layout_width="93dp"
-            android:layout_height="48dp"
-            android:backgroundTint="#90ACAF"
-            android:text="узнать"
-            android:layout_gravity="right"/>
     </LinearLayout>
     <LinearLayout
         android:orientation="horizontal"
@@ -217,17 +159,10 @@
             android:text="УК бездействует. Куда жаловаться дальше?"
             android:layout_marginLeft="8dp"
             android:layout_weight="1"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="15dp"
             android:textSize="18dp">
 
         </TextView>
-        <Button
-            android:id="@+id/but29"
-            android:layout_width="93dp"
-            android:layout_height="48dp"
-            android:backgroundTint="#90ACAF"
-            android:text="узнать"
-            android:layout_gravity="right"/>
     </LinearLayout>
     <TextView
         android:layout_width="wrap_content"

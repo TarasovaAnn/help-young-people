@@ -34,15 +34,6 @@
             android:textSize="18dp">
 
         </TextView>
-        <Button
-            android:id="@+id/but13"
-            android:layout_width="93dp"
-            android:layout_height="48dp"
-            android:backgroundTint="#90ACAF"
-            android:text="узнать"
-            android:layout_gravity="right">
-
-        </Button>
     </LinearLayout>
     <LinearLayout
         android:orientation="horizontal"
@@ -53,19 +44,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="15dp"
             android:text="Как помыть окна без разводов?"
             android:layout_marginLeft="8dp"
             android:textColor="#593C3C"
             android:textSize="18dp" />
 
-        <Button
-            android:id="@+id/but14"
-            android:layout_width="93dp"
-            android:layout_height="48dp"
-            android:backgroundTint="#90ACAF"
-            android:text="узнать"
-            android:layout_gravity="right"/>
     </LinearLayout>
     <LinearLayout
         android:orientation="horizontal"
@@ -76,19 +60,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="15dp"
             android:fontFamily="sans-serif"
             android:textColor="#593C3C"
             android:text="Куда сыпать стиральный порошок и сколько?"
             android:layout_marginLeft="8dp"
             android:textSize="18dp" />
-        <Button
-            android:id="@+id/but15"
-            android:layout_width="93dp"
-            android:layout_height="48dp"
-            android:backgroundTint="#90ACAF"
-            android:text="узнать"
-            android:layout_gravity="right"/>
     </LinearLayout>
     <LinearLayout
         android:orientation="horizontal"
@@ -99,17 +76,10 @@
             android:layout_height="wrap_content"
             android:text="Как избавиться от неприятного запаха в холодильнике?"
             android:layout_marginLeft="8dp"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="15dp"
             android:textColor="#593C3C"
             android:layout_weight="1"
             android:textSize="18dp"/>
-        <Button
-            android:id="@+id/but16"
-            android:layout_width="93dp"
-            android:layout_height="48dp"
-            android:backgroundTint="#90ACAF"
-            android:text="узнать"
-            android:layout_gravity="right"/>
     </LinearLayout>
     <LinearLayout
         android:orientation="horizontal"
@@ -120,19 +90,12 @@
             android:layout_height="wrap_content"
             android:text="Как почистить диван и мягкую мебель?"
             android:layout_marginLeft="8dp"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="15dp"
             android:textColor="#593C3C"
             android:layout_weight="1"
             android:textSize="18dp">
 
         </TextView>
-        <Button
-            android:id="@+id/but17"
-            android:layout_width="93dp"
-            android:layout_height="48dp"
-            android:backgroundTint="#90ACAF"
-            android:text="узнать"
-            android:layout_gravity="right"/>
     </LinearLayout>
     <LinearLayout
         android:orientation="horizontal"
@@ -142,20 +105,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="#593C3C"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="15dp"
             android:text="Как постирать пуховик?"
             android:layout_marginLeft="8dp"
             android:layout_weight="1"
             android:textSize="18dp">
 
         </TextView>
-        <Button
-            android:id="@+id/but18"
-            android:layout_width="93dp"
-            android:layout_height="48dp"
-            android:backgroundTint="#90ACAF"
-            android:text="узнать"
-            android:layout_gravity="right"/>
     </LinearLayout>
     <LinearLayout
         android:orientation="horizontal"
@@ -165,20 +121,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Какие средства нужны для базовой уборки?"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="15dp"
             android:layout_marginLeft="8dp"
             android:textColor="#593C3C"
             android:layout_weight="1"
             android:textSize="18dp">
 
         </TextView>
-        <Button
-            android:id="@+id/but19"
-            android:layout_width="93dp"
-            android:layout_height="48dp"
-            android:backgroundTint="#90ACAF"
-            android:text="узнать"
-            android:layout_gravity="right"/>
     </LinearLayout>
     <LinearLayout
         android:orientation="horizontal"
@@ -191,17 +140,10 @@
             android:textColor="#593C3C"
             android:layout_marginLeft="8dp"
             android:layout_weight="1"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="15dp"
             android:textSize="18dp">
 
         </TextView>
-        <Button
-            android:id="@+id/but20"
-            android:layout_width="93dp"
-            android:layout_height="48dp"
-            android:backgroundTint="#90ACAF"
-            android:text="узнать"
-            android:layout_gravity="right"/>
     </LinearLayout>
     <LinearLayout
         android:orientation="horizontal"
@@ -214,17 +156,10 @@
             android:text="Как избавиться от плесени в ванной?"
             android:layout_marginLeft="8dp"
             android:layout_weight="1"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="15dp"
             android:textSize="18dp">
 
         </TextView>
-        <Button
-            android:id="@+id/but21"
-            android:layout_width="93dp"
-            android:layout_height="48dp"
-            android:backgroundTint="#90ACAF"
-            android:text="узнать"
-            android:layout_gravity="right"/>
     </LinearLayout>
     <TextView
         android:layout_width="wrap_content"

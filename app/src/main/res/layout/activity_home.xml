@@ -34,15 +34,6 @@
             android:textSize="18dp">
 
         </TextView>
-        <Button
-            android:id="@+id/but1"
-            android:layout_width="93dp"
-            android:layout_height="48dp"
-            android:backgroundTint="#90ACAF"
-            android:text="узнать"
-            android:layout_gravity="right">
-
-        </Button>
     </LinearLayout>
     <LinearLayout
         android:orientation="horizontal"
@@ -53,19 +44,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="15dp"
             android:text="Как правильно размораживать мясо и рыбу?"
             android:layout_marginLeft="8dp"
             android:textColor="#593C3C"
             android:textSize="18dp" />
 
-        <Button
-            android:id="@+id/but2"
-            android:layout_width="93dp"
-            android:layout_height="48dp"
-            android:backgroundTint="#90ACAF"
-            android:text="узнать"
-            android:layout_gravity="right"/>
     </LinearLayout>
     <LinearLayout
         android:orientation="horizontal"
@@ -76,19 +60,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="15dp"
             android:fontFamily="sans-serif"
             android:textColor="#593C3C"
             android:text="Как понять, что продукт испортился?"
             android:layout_marginLeft="8dp"
             android:textSize="18dp" />
-        <Button
-            android:id="@+id/but3"
-            android:layout_width="93dp"
-            android:layout_height="48dp"
-            android:backgroundTint="#90ACAF"
-            android:text="узнать"
-            android:layout_gravity="right"/>
     </LinearLayout>
     <LinearLayout
         android:orientation="horizontal"
@@ -99,17 +76,10 @@
             android:layout_height="wrap_content"
             android:text="Что приготовить из остатков еды?"
             android:layout_marginLeft="8dp"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="15dp"
             android:textColor="#593C3C"
             android:layout_weight="1"
             android:textSize="18dp"/>
-        <Button
-            android:id="@+id/but4"
-            android:layout_width="93dp"
-            android:layout_height="48dp"
-            android:backgroundTint="#90ACAF"
-            android:text="узнать"
-            android:layout_gravity="right"/>
     </LinearLayout>
     <LinearLayout
         android:orientation="horizontal"
@@ -120,19 +90,12 @@
             android:layout_height="wrap_content"
             android:text="Как правильно варить макароны, рис и гречку?"
             android:layout_marginLeft="8dp"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="15dp"
             android:textColor="#593C3C"
             android:layout_weight="1"
             android:textSize="18dp">
 
         </TextView>
-        <Button
-            android:id="@+id/but5"
-            android:layout_width="93dp"
-            android:layout_height="48dp"
-            android:backgroundTint="#90ACAF"
-            android:text="узнать"
-            android:layout_gravity="right"/>
     </LinearLayout>
     <LinearLayout
         android:orientation="horizontal"
@@ -142,20 +105,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="#593C3C"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="15dp"
             android:text="Как наточить ножи в домашних условиях?"
             android:layout_marginLeft="8dp"
             android:layout_weight="1"
             android:textSize="18dp">
 
         </TextView>
-        <Button
-            android:id="@+id/but6"
-            android:layout_width="93dp"
-            android:layout_height="48dp"
-            android:backgroundTint="#90ACAF"
-            android:text="узнать"
-            android:layout_gravity="right"/>
     </LinearLayout>
     <LinearLayout
         android:orientation="horizontal"
@@ -165,20 +121,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Как хранить разные продукты в холодильнике?"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="15dp"
             android:layout_marginLeft="8dp"
             android:textColor="#593C3C"
             android:layout_weight="1"
             android:textSize="18dp">
 
         </TextView>
-        <Button
-            android:id="@+id/but7"
-            android:layout_width="93dp"
-            android:layout_height="48dp"
-            android:backgroundTint="#90ACAF"
-            android:text="узнать"
-            android:layout_gravity="right"/>
     </LinearLayout>
     <LinearLayout
         android:orientation="horizontal"
@@ -191,17 +140,10 @@
             android:textColor="#593C3C"
             android:layout_marginLeft="8dp"
             android:layout_weight="1"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="15dp"
             android:textSize="18dp">
 
         </TextView>
-        <Button
-            android:id="@+id/but8"
-            android:layout_width="93dp"
-            android:layout_height="48dp"
-            android:backgroundTint="#90ACAF"
-            android:text="узнать"
-            android:layout_gravity="right"/>
     </LinearLayout>
     <LinearLayout
         android:orientation="horizontal"
@@ -211,20 +153,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="#593C3C"
-            android:text="Домашнее хозяйство"
+            android:text="Когда нужно замочить жирную сковороду и как?"
             android:layout_marginLeft="8dp"
             android:layout_weight="1"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="15dp"
             android:textSize="18dp">
 
         </TextView>
-        <Button
-            android:id="@+id/but9"
-            android:layout_width="93dp"
-            android:layout_height="48dp"
-            android:backgroundTint="#90ACAF"
-            android:text="узнать"
-            android:layout_gravity="right"/>
     </LinearLayout>
     <TextView
         android:layout_width="wrap_content"

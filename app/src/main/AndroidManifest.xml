@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.IndProject">
         <activity
+            android:name=".CookActivity"
+            android:exported="false" />
+        <activity
             android:name=".GkxActivity"
             android:exported="false" />
         <activity
