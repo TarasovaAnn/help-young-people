@@ -1,8 +1,10 @@
 package com.example.indproject
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import android.view.animation.AnimationUtils
+import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
@@ -13,7 +15,11 @@ class CookActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_cook) // обрати внимание на название файла!
-
+        var button: Button = findViewById(R.id.back_btn5)
+        button.setOnClickListener {
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
+        }
         setupRecipeAccordion()
     }
 
@@ -23,7 +29,11 @@ class CookActivity : AppCompatActivity() {
             RecipeItem(R.id.headerEggs, R.id.expandableEggs, R.id.arrowEggs),
             RecipeItem(R.id.headerPasta, R.id.expandablePasta, R.id.arrowPasta),
             RecipeItem(R.id.headerChicken, R.id.expandableChicken, R.id.arrowChicken),
-            RecipeItem(R.id.headerPotato, R.id.expandablePotato, R.id.arrowPotato)
+            RecipeItem(R.id.headerPotato, R.id.expandablePotato, R.id.arrowPotato),
+            RecipeItem(R.id.headerOatmeal, R.id.expandableOatmeal, R.id.arrowOatmeal),
+            RecipeItem(R.id.headerSoup, R.id.expandableSoup, R.id.arrowSoup),
+            RecipeItem(R.id.headerSandwich, R.id.expandableSandwich, R.id.arrowSandwich),
+            RecipeItem(R.id.headerRice, R.id.expandableRice, R.id.arrowRice)
         )
 
         // Настраиваем клики для каждого рецепта
