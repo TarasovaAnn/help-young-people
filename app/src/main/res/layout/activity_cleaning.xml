@@ -13,7 +13,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="35dp"
         android:text="Частые вопросы по уборке"
         android:textColor="#34495e"
         android:textSize="20dp"
@@ -184,6 +184,7 @@
         android:layout_marginTop="30dp"
         android:backgroundTint="#34495e"
         android:layout_width="250dp"
+        android:textColor="@color/white"
         android:layout_gravity="center"
         android:layout_height="50dp"
         android:text="На главную" />

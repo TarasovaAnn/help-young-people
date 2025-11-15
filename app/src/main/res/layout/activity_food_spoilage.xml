@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="16dp"
-    android:background="#f8f9fa">
+    android:background="#EBE1D2">
 
     <LinearLayout
         android:background="#EBE1D2"
@@ -20,6 +20,7 @@
             android:textStyle="bold"
             android:textColor="#2c3e50"
             android:gravity="center"
+            android:layout_marginTop="35dp"
             android:layout_marginBottom="24dp" />
 
         <!-- Общие признаки -->
@@ -221,6 +222,7 @@
             android:layout_marginTop="30dp"
             android:backgroundTint="#34495e"
             android:layout_width="250dp"
+            android:textColor="@color/white"
             android:layout_gravity="center"
             android:layout_height="50dp"
             android:text="На главную" />

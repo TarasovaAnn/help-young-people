@@ -12,6 +12,7 @@
 
         <!-- Заголовок -->
         <TextView
+            android:layout_marginTop="35dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="🥩 Как правильно размораживать мясо и рыбу"
@@ -144,6 +145,7 @@
             android:id="@+id/back_btn6"
             android:layout_marginTop="30dp"
             android:backgroundTint="#34495e"
+            android:textColor="@color/white"
             android:layout_width="250dp"
             android:layout_gravity="center"
             android:layout_height="50dp"

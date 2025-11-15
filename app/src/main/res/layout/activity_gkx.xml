@@ -16,7 +16,7 @@
         android:textStyle="bold"
         android:textColor="#34495e"
         android:layout_gravity="center"
-        android:layout_marginTop="15dp">
+        android:layout_marginTop="35dp">
     </TextView>
     <LinearLayout
         android:orientation="horizontal"
@@ -187,6 +187,7 @@
         android:layout_marginTop="30dp"
         android:backgroundTint="#34495e"
         android:layout_width="250dp"
+        android:textColor="@color/white"
         android:layout_gravity="center"
         android:layout_height="50dp"
         android:text="На главную" />
