@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.IndProject">
         <activity
-            android:name=".GrainsActivity"
+            android:name=".SidesActivity"
             android:exported="false" />
         <activity
             android:name=".LeftoversActivity"
